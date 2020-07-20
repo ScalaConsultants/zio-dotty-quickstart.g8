@@ -2,7 +2,7 @@ package com.example
 
 import zio.test.Assertion.equalTo
 import zio.test.junit.JUnitRunnableSpec
-import zio.test.{assert, suite, test}
+import zio.test.{ assert, suite, test }
 
 object HelloWorldSpec extends JUnitRunnableSpec {
 
