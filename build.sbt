@@ -1,12 +1,5 @@
-scalacOptions ++= Seq(
-  "-deprecation",
-  "-encoding", "UTF-8",
-  "-feature",
-  "-unchecked",
-  "-explain",
-  "-explain-types"
-)
 
+// Use stable version
 scalaVersion := dottyLatestNightlyBuild.get
 
 val zioVersion = "1.0.0-RC21-2"
