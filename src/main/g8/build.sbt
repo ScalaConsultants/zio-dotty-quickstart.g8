@@ -13,7 +13,7 @@ lazy val root = project
     ),
     addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1"),
     libraryDependencies ++= Seq(
-      "dev.zio" %% "zio" % zioVersion,
+      "dev.zio" %% "zio"               % zioVersion,
       "dev.zio" %% "zio-test"          % zioVersion % Test,
       "dev.zio" %% "zio-test-sbt"      % zioVersion % Test,
       "dev.zio" %% "zio-test-junit"    % zioVersion % Test,
