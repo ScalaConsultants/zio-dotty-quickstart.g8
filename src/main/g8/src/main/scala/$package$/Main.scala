@@ -1,11 +1,11 @@
-package com.example
+package $package$
 
 import java.io.IOException
 
 import zio.{ App, ExitCode, URIO, ZEnv, ZIO }
 import zio.console.{ getStrLn, putStrLn, Console }
 
-object HelloWorld extends App {
+object Main extends App {
 
   val app: ZIO[Console, IOException, Unit] =
     for {

@@ -1,10 +1,10 @@
-package com.example
+package $package$
 
 import zio.test.Assertion.equalTo
 import zio.test.junit.JUnitRunnableSpec
-import zio.test.{ assert, suite, test }
+import zio.test.{assert, suite, test}
 
-object HelloWorldSpec extends JUnitRunnableSpec {
+object MainSpec extends JUnitRunnableSpec {
 
   def spec = suite("Test environment")(
     test("expect call with input satisfying assertion") {
