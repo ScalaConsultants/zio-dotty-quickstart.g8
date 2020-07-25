@@ -15,6 +15,15 @@ cd <project-name>
 sbt test
 ```
 
+### Known issues
+
+* Plugin [sbt-scalafmt] is formatting dotty code. However, there is [issues with scalafmt for handling implicit conversions in doty](https://github.com/scalameta/scalafmt/issues/2122).
+
+* There is [error in zio-test when testing console interactions](https://github.com/zio/zio/issues/3995):
+```scala
+Type Mismatch Error env zio.test.mock.Expectation[zio.console.Console]
+```
+
 Template license
 ----------------
 Written in 2020 by [Scalac Sp. z o.o.][scalac].
@@ -26,3 +35,4 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [g8]: http://www.foundweekends.org/giter8/
 [scalac]: https://scalac.io/
 [zio]: https://zio.dev/
+[sbt-scalafmt]: https://github.com/scalameta/sbt-scalafmt
