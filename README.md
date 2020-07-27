@@ -17,8 +17,6 @@ sbt test
 
 ### Known issues
 
-* Plugin [sbt-scalafmt] is formatting dotty code. However, there is [issues with scalafmt for handling implicit conversions in doty](https://github.com/scalameta/scalafmt/issues/2122).
-
 * There is [error in zio-test when testing console interactions](https://github.com/zio/zio/issues/3995):
 ```scala
 Type Mismatch Error env zio.test.mock.Expectation[zio.console.Console]
