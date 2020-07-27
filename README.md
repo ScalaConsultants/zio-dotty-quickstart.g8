@@ -1,3 +1,5 @@
+![Scala CI](https://github.com/ScalaConsultants/zio-dotty-quickstart.g8/workflows/Scala%20CI/badge.svg?branch=master)
+
 ## zio-dotty-quickstart.g8
 
 A [Giter8][g8] template for a basic Dotty application build using [ZIO]
