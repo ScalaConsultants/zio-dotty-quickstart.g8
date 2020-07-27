@@ -11,7 +11,7 @@ object Main extends App:
     for
       _    <- putStrLn("What is your name?")
       name <- getStrLn
-      out  <- putStrLn(s"Hello $name!")
+      out  <- putStrLn(s"Hello \$name!")
     yield out
 
   def run(args: List[String]): URIO[ZEnv, ExitCode] =
