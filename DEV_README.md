@@ -1,21 +1,19 @@
 # Testing locally
 
-```shell script
-sbt g8Test
-```
-generates sample project in
-```shell script
-cd target/sbt-test/zio-dotty-quickstart/scripted
-```
+* using Giter8
 
-Now you can check whether
-tests pass:
 ```shell script
+g8 file://zio-dotty-quickstart.g8/ --name=foo --force
+cd foo
 sbt clean test
 ```
 
-files are properly formatted:
+* using SBT
+
+This way is not ideal (e.g. no complains on unescaped $)
+
 ```shell script
-sbt scalafmtCheck
+sbt g8Test
+cd target/sbt-test/zio-dotty-quickstart/scripted
+sbt clean test
 ```
-etc
