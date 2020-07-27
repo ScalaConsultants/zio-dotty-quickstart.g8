@@ -35,4 +35,3 @@ This template is distributed without any warranty. See <http://creativecommons.o
 [g8]: http://www.foundweekends.org/giter8/
 [scalac]: https://scalac.io/
 [zio]: https://zio.dev/
-[sbt-scalafmt]: https://github.com/scalameta/sbt-scalafmt
