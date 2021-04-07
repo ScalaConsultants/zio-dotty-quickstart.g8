@@ -4,8 +4,8 @@ lazy val root = project
   .in(file("."))
   .settings(
     name := "zio-dotty-quickstart",
-    test in Test := {
-      val _ = (g8Test in Test).toTask("").value
+    Test / test := {
+      val _ = (Test / g8Test).toTask("").value
     },
     addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1"),
     libraryDependencies ++= Seq(
