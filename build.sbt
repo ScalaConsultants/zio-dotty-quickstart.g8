@@ -1,4 +1,4 @@
-val zioVersion = "1.0.3"
+val zioVersion = "1.0.6"
 
 lazy val root = project
   .in(file("."))
@@ -7,7 +7,6 @@ lazy val root = project
     Test / test := {
       val _ = (Test / g8Test).toTask("").value
     },
-    addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1"),
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio"               % zioVersion,
       "dev.zio" %% "zio-test"          % zioVersion % Test,
