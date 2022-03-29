@@ -22,7 +22,7 @@ sbt test
 
 * There is [error in zio-test when testing console interactions](https://github.com/zio/zio/issues/3995):
 ```scala
-Type Mismatch Error env zio.test.mock.Expectation[zio.console.Console]
+Type Mismatch Error env zio.test.mock.Expectation[zio.Console.Console]
 ```
 
 Template license
