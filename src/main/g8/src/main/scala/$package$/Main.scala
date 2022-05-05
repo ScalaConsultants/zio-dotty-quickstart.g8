@@ -2,10 +2,10 @@ package $package$
 
 import java.io.IOException
 
-import zio.{ App, ExitCode, URIO, ZEnv, ZIO, Console }
+import zio.{  ZIOAppDefault, ExitCode, URIO, ZEnv, ZIO, Console }
 import zio.Console.{ printLine, readLine }
 
-object Main extends App:
+object Main extends ZIOAppDefault:
 
   val app: ZIO[Console, IOException, Unit] =
     for
@@ -14,5 +14,5 @@ object Main extends App:
       out  <- printLine(s"Hello \$name!")
     yield out
 
-  def run(args: List[String]): URIO[ZEnv, ExitCode] =
+  def run =
     app.exitCode
