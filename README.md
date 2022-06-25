@@ -27,7 +27,7 @@ Type Mismatch Error env zio.test.mock.Expectation[zio.Console.Console]
 
 Template license
 ----------------
-Written in 2020 by [Scalac Sp. z o.o.](https://scalac.io/?utm_source=scalac_github&utm_campaign=scalac1&utm_medium=web)
+Written in 2022 by [Scalac Sp. z o.o.](https://scalac.io/?utm_source=scalac_github&utm_campaign=scalac1&utm_medium=web)
 
 To the extent possible under law, the author(s) have dedicated all copyright and related
 and neighboring rights to this template to the public domain worldwide.
