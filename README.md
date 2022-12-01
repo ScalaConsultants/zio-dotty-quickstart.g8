@@ -18,13 +18,6 @@ cd <project-name>
 sbt test
 ```
 
-### Known issues
-
-* There is [error in zio-test when testing console interactions](https://github.com/zio/zio/issues/3995):
-```scala
-Type Mismatch Error env zio.test.mock.Expectation[zio.Console.Console]
-```
-
 Template license
 ----------------
 Written in 2022 by [Scalac Sp. z o.o.](https://scalac.io/?utm_source=scalac_github&utm_campaign=scalac1&utm_medium=web)
